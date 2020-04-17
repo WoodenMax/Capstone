@@ -1,0 +1,143 @@
+#createimg {
+  min-width: 100%; min-height: 96%;
+}
+.createimg2 {
+  max-height: 40%;
+  width: auto ! important;
+}
+#hide {
+  display: none;
+}
+nav {
+  left: 10px;
+  right: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #0C7528;
+  overflow: hidden;
+}
+nav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 40px;
+  text-decoration: none;
+  font-size: 30px;
+}
+nav a:hover {
+  background-color: #37A353;
+  color: black;
+}
+nav a.active {
+  background-color: #005717;
+  color: white;
+}
+nav a.active:hover {
+  background-color: #37A353;
+  color: black;
+}
+.title {
+  background-color: #DA5B4A;
+  color: white;
+  clear: none;
+  text-align: center;
+  font-size: 40px;
+  padding: 20px 40px;
+}
+.textl {
+  background-color: #DA5B4A;
+  color: white;
+  float: left;
+  text-align: left;
+  font-size: 40px;
+  padding: 7px 20px;
+}
+.textr {
+  background-color: #DA5B4A;
+  color: white;
+  float: right;
+  text-align: right;
+  font-size: 40px;
+  padding: 7px 20px;
+}
+.textc {
+  background-color: #DA5B4A;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  padding: 7px 10px;
+}
+.margin-box {
+  margin-top: 4rem;
+  margin-bottom: 56%;
+  width: 100%;
+  min-width: 100%
+}
+body {
+  background-color: #C03826;
+  background-image: url("nebula.jpg");
+  background-size: cover;
+  height: 100%;
+}
+#ctext {
+  bottom: 120px;
+}
+.section1 {
+  float: left;
+  width: 48%;
+  background-color: #DA5B4A;
+  color: white;
+  height: 110%;
+  text-align: left;
+  font-size: 40px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-right: 1%;
+  padding-left: 1%;
+  max-width: 100%;
+  overflow: auto;
+}
+.section1 img{
+  width: 92%;
+}
+.section2 {
+  float: right;
+  height: 110%;
+  width: 48%;
+  background-color: #DA5B4A;
+  color: white;
+  text-align: right;
+  font-size: 40px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-right: 1%;
+  padding-left: 1%;
+}
+.section2 img{
+  max-width: 95%;
+  max-height: 50%;
+  clear: both;
+}
+.section2 form{
+  float: left;
+}
+#himg {
+  width: 95%;
+}
+#cover {
+  max-height: 100%;
+}
+footer {
+  width: calc(100% - 40px);
+  background-color: #1C8F3A;
+  padding-top: 14px;
+  padding-bottom: 7px;
+  padding-right: 1.5%;
+  padding-left: 1%;
+}
+footer p{
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}

@@ -1,0 +1,68 @@
+<!-- https://www.w3schools.com/html/html_forms.asp -->
+<HTML>
+  <HEAD>
+    <style>
+    form * {
+      display: block;
+      margin: 10px;
+    }
+    </style>
+    <script language="Javascript" >
+    function download(filename, text) {
+      var pom = document.createElement('a');
+      pom.setAttribute('href', 'data:text/plain;charset=utf-8,' +
+
+      encodeURIComponent(text));
+      pom.setAttribute('download', filename);
+
+      pom.style.display = 'none';
+      document.body.appendChild(pom);
+
+      pom.click();
+
+      document.body.removeChild(pom);
+    }
+  </script>
+  <TITLE>My Capstone - Maxim Capstone
+  </TITLE>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</HEAD>
+<!-- Top navigation bar -->
+<BODY onload="checkCookie()">
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="prob.html">My Capstone</a>
+    <a href="write.html">Written Component</a>
+    <a href="create.html">Creative Component</a>
+    <a class="active" href="tech.html">Technology Component</a>
+  </nav>
+  <!-- Title -->
+  <div class="margin-box">
+    <div class="title">
+      Technology Component
+    </div>
+    <!-- Start of content -->
+    <div class="section1">
+      My technology component is...<br>Drumroll please...<br>This!<br>
+      This website is my technology component. Did you like it? Tell me here! <br>(this took way too long to set up)
+    </div>
+    <div class="section2">
+      <form onsubmit="download(this['name'].value, this['text'].value)">
+        <input type="text" name="name" value="rating.txt" id="hide">
+        <textarea placeholder="Type your review here." rows=3 cols=50 name="text"></textarea>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+    <!-- Start of footer -->
+    <footer>
+      <p>
+        <a href="contact.html"> Contact </a>
+        -----
+        <a href="dev.html"> Secrets </a>
+        <br>
+        Created by Maxim Zmudzinski - Copyright 2020
+      </p>
+    </footer>
+  </BODY>
+</HTML>
