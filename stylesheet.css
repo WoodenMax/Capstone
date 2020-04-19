@@ -69,12 +69,28 @@ nav a.active:hover {
   padding: 7px 10px;
 }
 .margin-box {
+  margin-top: 16rem;
+  margin-bottom: 56%;
+  width: 100%;
+  min-width: 100%
+}
+@media only screen and (min-width: 663px) {
+.margin-box {
   margin-top: 12rem;
   margin-bottom: 56%;
   width: 100%;
   min-width: 100%
 }
-@media only screen and (min-width: 768px) {
+}
+@media only screen and (min-width: 728px) {
+.margin-box {
+  margin-top: 8rem;
+  margin-bottom: 56%;
+  width: 100%;
+  min-width: 100%
+}
+}
+@media only screen and (min-width: 1425px) {
 .margin-box {
   margin-top: 4rem;
   margin-bottom: 56%;
